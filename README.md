@@ -20,7 +20,13 @@ Use prepared statements or an ORM (Object-Relational Mapping) library to prevent
 
 Use environment variables to store your database credentials.
 
-Create a configuration file, e.g., config.php, to store your database credentials.
+Create a configuration file, `.env, to store your database credentials.
+add a `.env` file under `config` directory. 
+example .env file:
+
+DB_DSN=mysql:dbname=phptest;host=127.0.1
+DB_USER=""
+DB_PASSWORD=""
 
 # Singleton Pattern Misuse
 
