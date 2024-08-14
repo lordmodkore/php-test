@@ -20,7 +20,7 @@ Use prepared statements or an ORM (Object-Relational Mapping) library to prevent
 
 Use environment variables to store your database credentials.
 
-Create a configuration file, `.env, to store your database credentials.
+Create a configuration file, `.env`, to store your database credentials.
 add a `.env` file under `config` directory. 
 example .env file:
 
